@@ -1,0 +1,5 @@
+.botbar1, .botbar2, .botbar3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

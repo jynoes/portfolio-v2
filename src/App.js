@@ -1,5 +1,6 @@
 import Topbar from './components/Topbar';
 import Midbar from './components/Midbar';
+import Botbar from './components/Botbar';
 import './App.css';
 import './fonts/stretchpro.woff';
 import './fonts/stretchpro2.woff2';
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Topbar />
       <Midbar />
+      <Botbar />
     </div>
   );
 }
