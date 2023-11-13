@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import { Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "../styles/Topbar.css";
 
 const Topbar = () => {
@@ -9,19 +9,31 @@ const Topbar = () => {
     <div className="topbar">
       <Navbar expand="lg" className="navbar">
         <Container className="navbar-container">
-          <Container className="topbar-1">
-            Excited for <br /><span className="bolder"> Designer/Developer </span>Positions
-          </Container>
-          <Navbar.Brand href="#" id="main-brand" className="topbar-2">
-            summertonic
-          </Navbar.Brand>
-          <Container className="topbar-3">
-            Portfolio <br /> -- Volume 2 
-          </Container>
+          <Col lg={4} className="topbar-1">
+            Excited for <br />
+            <span className="bolder"> Designer/Developer </span>Positions
+          </Col>
+          <Col lg={4}>
+            <Navbar.Brand href="#" id="main-brand" className="topbar-2">
+              summertonic
+            </Navbar.Brand>
+          </Col>
+          <Col lg={4}>
+            <Container className="topbar-3">
+              Portfolio <br /> -- Volume 2
+            </Container>
+          </Col>
         </Container>
       </Navbar>
-      <Row className="text-center" id="header">
-        <h1>Jynoe Sabido</h1>
+      <Row className="text-center header">
+        <Col>
+          <Row className="header1">
+            <h1 className="lato">JYNOE</h1>
+          </Row>
+          <Row className="header2">
+            <h1 className="blue-angel">SABIDO</h1>
+          </Row>
+        </Col>
       </Row>
     </div>
   );

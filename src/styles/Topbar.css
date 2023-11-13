@@ -1,38 +1,60 @@
 .topbar {
-    margin: 0;
-    height: 40vh;
+  margin: 0;
+  height: 40vh;
+  overflow: hidden;
 }
 
 .navbar {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .navbar-container {
-    padding: 0;
+  padding: 0;
 }
 
-#main-brand {   
-    font-size: 2rem;
-    margin: 0;
+#main-brand {
+  font-size: 2rem;
+  margin: 0;
 }
 
 .topbar-1 {
-    padding: 0;
-    line-height: 100%;
+  padding: 0;
+  line-height: 100%;
+}
+
+.topbar-2 {
+    display: flex;
+    justify-content: center;
 }
 
 .bolder {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .topbar-3 {
-    padding: 0;
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    line-height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  line-height: 100%;
 }
 
-#header {
-    font-family: "StretchPro";
+
+.header1, .header2 {
+    padding: 0;
+}
+
+.lato {
+  font-size: 52px;
+  font-family: "StretchPro", sans-serif;
+  letter-spacing: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.blue-angel {
+  font-size: 128px;
+  font-family: "BlueAngel", sans-serif;
+  margin: 0;
+  padding: 0;
 }
