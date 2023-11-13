@@ -1,0 +1,38 @@
+.topbar {
+    margin: 0;
+    height: 40vh;
+}
+
+.navbar {
+    padding: 3rem 0;
+}
+
+.navbar-container {
+    padding: 0;
+}
+
+#main-brand {   
+    font-size: 2rem;
+    margin: 0;
+}
+
+.topbar-1 {
+    padding: 0;
+    line-height: 100%;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.topbar-3 {
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    line-height: 100%;
+}
+
+#header {
+    font-family: "StretchPro";
+}
