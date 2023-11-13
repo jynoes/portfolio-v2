@@ -1,6 +1,6 @@
 .topbar {
   margin: 0;
-  height: 40vh;
+  height: 45vh;
   overflow: hidden;
 }
 
@@ -39,10 +39,6 @@
   line-height: 100%;
 }
 
-
-.header1, .header2 {
-    padding: 0;
-}
 
 .lato {
   font-size: 52px;

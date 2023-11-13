@@ -1,0 +1,32 @@
+.midbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbar3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbar4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbar5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
