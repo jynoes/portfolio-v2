@@ -19,7 +19,7 @@ const Midbar = () => {
     <>
       <TopNavbar onResetClick={handleResetClick} />
       
-      <Topbar />
+      <Topbar activeSection={activeSection} />
 
       <div className="midbar">
         <Container>

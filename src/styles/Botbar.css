@@ -46,6 +46,48 @@
     font-size: 3rem;
 }
 
+/* WORKS STYLING */
+.botbar-works {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.botbar-works:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+
+
+/* WORK SLIDER STYLING */
+
+.project-slide {
+  margin-top: 2rem;
+  margin-right: 0.4rem;
+  border: solid 2px #121212;
+  height: 45vh;
+  border-radius: 1rem;
+  box-shadow: 0.4rem 0.4rem #05060f;
+  padding: 1rem;
+}
+
+.project-title {
+}
+
+.project-category {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.project-desc {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+
+
+
 /* MAIN IMAGE ANIMATION */
 
 /* #root > div > div.botbar > div > div > div.botbar2.col > svg {

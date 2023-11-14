@@ -32,7 +32,7 @@ const Botbar = ({ activeSection }) => {
       )}
 
       {activeSection === "Works" && (
-        <Container id="botbar-works">
+        <Container id="botbar-works" className="botbar-works">
           <Row>
             <WorkSlider />
           </Row>
@@ -40,7 +40,7 @@ const Botbar = ({ activeSection }) => {
       )}
 
       {activeSection === "About" && (
-        <Container id="botbar-works">
+        <Container id="botbar-about">
           <Row>About</Row>
         </Container>
       )}

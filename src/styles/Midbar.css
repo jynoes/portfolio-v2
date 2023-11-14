@@ -10,24 +10,28 @@
     align-items: center;
     justify-content: center;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .midbar2 {
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .midbar3 {
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .midbar4 {
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .midbar5 {
     display: flex;
