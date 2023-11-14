@@ -1,7 +1,11 @@
 .topbar {
   margin: 0;
-  height: 45vh;
+  height: 30vh;
   overflow: hidden;
+}
+
+.top-navbar {
+  height: 15vh;
 }
 
 .navbar {
