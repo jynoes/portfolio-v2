@@ -9,7 +9,7 @@ import './fonts/PPMonumentExtended-Black.otf'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{overflow: ""}}>
       <Topbar />
       <Midbar />
       <Botbar />

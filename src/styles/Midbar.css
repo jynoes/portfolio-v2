@@ -9,24 +9,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1px;
 }
 .midbar2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1px;
 }
 .midbar3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1px;
 }
 .midbar4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1px;
 }
 .midbar5 {
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1px;
 }
+
+.bolder {
+    font-weight: 700;
+  }

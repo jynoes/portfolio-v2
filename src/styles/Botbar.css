@@ -1,5 +1,127 @@
-.botbar1, .botbar2, .botbar3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.botbar {
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botbar1 {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.botbar3 {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  gap: 1rem;
+}
+
+.intro-div1 {
+  width: 60%;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+.intro-div2 {
+  width: 60%;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+
+.bi-stars {
+    font-size: 3rem;
+}
+
+/* MAIN IMAGE ANIMATION */
+
+/* #root > div > div.botbar > div > div > div.botbar2.col > svg {
+  opacity: 0;
+} */
+#root > div > div.botbar > div > div > div.botbar2.col > svg > g:nth-child(3) {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
+  animation-delay: 0s;
+}
+#root > div > div.botbar > div > div > div.botbar2.col > svg > g:nth-child(4) {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft;
+  animation-delay: 0s;
+}
+#root > div > div.botbar > div > div > div.botbar2.col > svg > g:nth-child(5) {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedRight;
+  animation-delay: 0s;
+}
+#root > div > div.botbar > div > div > div.botbar2.col > svg > g:nth-child(6) {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideUp;
+  animation-delay: 0s;
+}
+#root > div > div.botbar > div > div > div.botbar2.col > svg > g:nth-child(7) {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomIn;
+  animation-delay: 0s;
+}
+@keyframes lightSpeedRight {
+  from {
+    transform: translate3d(50%, 0, 0) skewX(-20deg);
+    opacity: 0;
+  }
+  60% {
+    transform: skewX(10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skewX(-2deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes lightSpeedLeft {
+  from {
+    transform: translate3d(-50%, 0, 0) skewX(20deg);
+    opacity: 0;
+  }
+  60% {
+    transform: skewX(-10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skewX(2deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: inherit;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
