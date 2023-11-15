@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 import "../styles/Topbar.css";
 
+import ashwolf from "../assets/Ash Wolf Logo.png"
+
 const Topbar = ({ activeSection }) => {
   return (
     <div className="topbar">
@@ -49,7 +51,9 @@ const Topbar = ({ activeSection }) => {
       {activeSection === "About" && (
         <Container className="topbar-about">
           <Row className="text-center">
-            <Col className="about1"></Col>
+            <Col className="about1">
+              <img className="about-ashwolf" src={ashwolf}></img>
+            </Col>
             <Col className="about2"></Col>
             <Col className="about3">
               <Row className="header1">

@@ -119,7 +119,7 @@
   position: relative;
 }
 
-.about3 .lato {
+.about3 .header1 .lato {
   display: flex;
   justify-content: flex-end;
   position: absolute;
@@ -130,4 +130,20 @@
   top: 1.5rem;
   right: 0;
 }
+
+.header3 .lato {
+  display: flex;
+  position: absolute;
+  font-size: 4rem;
+  letter-spacing: 7px;
+  margin-top: 1rem;
+  font-family: "BlueAngel", sans-serif;
+  top: 0;
+  right: 0;
+}
+
+.about-ashwolf {
+  height: 200px;
+}
+
 
