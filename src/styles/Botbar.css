@@ -79,12 +79,28 @@
 
 .project-category {
   font-family: 'Red Hat Text', sans-serif;
+  margin: 0;
 }
 
 .project-desc {
   font-family: 'Red Hat Text', sans-serif;
 }
 
+.project-detail {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-tools-container {
+  display: flex;
+  font-size: 2rem;
+}
+.project-tools {
+  display: flex;
+  gap: 4px;
+}
 
 
 

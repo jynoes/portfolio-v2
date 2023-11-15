@@ -11,7 +11,10 @@ import "swiper/css/pagination";
 // import required modules
 import { FreeMode, Pagination } from "swiper/modules";
 
-import { FaReact, FaCss3 } from "react-icons/fa";
+// React Icons Import
+import { FaReact, FaBootstrap, FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
 
 const projectList = [
   {
@@ -23,8 +26,11 @@ const projectList = [
     imgAlt: "",
     stack: [
       {
+        html: true,
+        css: true,
+        javascript: true,
         reactJS: true,
-        css: false,
+        bootstrap: true,
       },
     ],
   },
@@ -37,8 +43,11 @@ const projectList = [
     imgAlt: "",
     stack: [
       {
-        reactJS: true,
-        css: false,
+        html: true,
+        css: true,
+        javascript: true,
+        reactJS: false,
+        bootstrap: false,
       },
     ],
   },
@@ -51,8 +60,11 @@ const projectList = [
     imgAlt: "",
     stack: [
       {
+        html: true,
+        css: true,
+        javascript: true,
         reactJS: true,
-        css: false,
+        bootstrap: true,
       },
     ],
   },
@@ -65,8 +77,11 @@ const projectList = [
     imgAlt: "",
     stack: [
       {
+        html: true,
+        css: true,
+        javascript: true,
         reactJS: true,
-        css: false,
+        bootstrap: true,
       },
     ],
   },
@@ -79,8 +94,11 @@ const projectList = [
     imgAlt: "",
     stack: [
       {
+        html: true,
+        css: true,
+        javascript: true,
         reactJS: true,
-        css: false,
+        bootstrap: true,
       },
     ],
   },
@@ -93,8 +111,11 @@ const projectList = [
     imgAlt: "",
     stack: [
       {
+        html: true,
+        css: true,
+        javascript: true,
         reactJS: true,
-        css: false,
+        bootstrap: true,
       },
     ],
   },
@@ -113,18 +134,19 @@ const WorkSlider = () => {
         <SwiperSlide key={i}>
           <div className="project-slide">
             <h4 className="project-title">{val.title}</h4>
-            <div>
-              <p className="project-category">{val.category}</p>
-              <div>
-                <strong>Tech Stack:</strong>{" "}
+            <div className="project-detail">
+              <div className="project-tools-container">
                 {val.stack.map((tech, index) => (
-                  <span key={index}>
+                  <span className="project-tools" key={index}>
+                    {tech.html && <FaHtml5 />}
+                    {tech.css && <IoLogoCss3 />}
+                    {tech.javascript && <IoLogoJavascript />}
                     {tech.reactJS && <FaReact />}
-                    {tech.css && <FaCss3 />}
-                    {/* Add more conditions for other technologies */}
+                    {tech.bootstrap && <FaBootstrap />}
                   </span>
                 ))}
               </div>
+              <p className="project-category">{val.category}</p>
             </div>
             <p className="project-desc">{val.desc}</p>
           </div>
