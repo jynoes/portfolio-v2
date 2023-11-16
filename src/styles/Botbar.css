@@ -102,6 +102,25 @@
   gap: 4px;
 }
 
+/* BOTBAR  */
+
+#botbar-about {
+  height: 45vh;
+}
+
+.about-row {
+  height: 100%;
+  position: relative;
+}
+
+.levi {
+  position: absolute;
+  height: 90vh;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
 
 
 /* MAIN IMAGE ANIMATION */

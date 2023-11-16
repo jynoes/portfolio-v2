@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 import "../styles/Botbar.css";
 import MainImage from "./MainImage";
 import WorkSlider from "./WorkSlider";
+
+import levi from "../assets/levi12.png";
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -41,7 +43,13 @@ const Botbar = ({ activeSection }) => {
 
       {activeSection === "About" && (
         <Container id="botbar-about">
-          <Row>About</Row>
+          <Row className="about-row">
+            <Col>
+              <img className="levi" src={levi}></img>
+            </Col>
+            <Col></Col>
+            <Col></Col>
+          </Row>
         </Container>
       )}
 
