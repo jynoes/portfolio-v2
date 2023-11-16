@@ -126,6 +126,7 @@
 
 .philosophy-card {
   width: 100%;
+  text-align: right;
 }
 .philosophy {
   color: #f5f5f5;
@@ -154,24 +155,10 @@
   border-bottom: 1px solid #121212;
 }
 
-.shrine {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  font-size: 20rem;
-  z-index: -1;
-  color: #121212;
-}
-
-.stonetower {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  font-size: 20rem;
+.about-desc1-container {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  text-align: justify;
 }
 
 /* MAIN IMAGE ANIMATION */

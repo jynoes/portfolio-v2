@@ -51,7 +51,7 @@ const Botbar = ({ activeSection }) => {
               <img className="levi" src={levi} alt="levi"></img>
             </Col>
             <Col lg={4} className="about-desc-col">
-              <div className="philosophy-card text-center">
+              <div className="philosophy-card">
                 <div>
                   <h3 className="blue-angel1">user centric designs</h3>
                 </div>
@@ -61,6 +61,9 @@ const Botbar = ({ activeSection }) => {
                 <div>
                   <h3 className="blue-angel2">clean clear concise~</h3>
                 </div>
+              </div>
+              <div className="about-desc1-container">
+                <p className="about-desc1">The designer/developer of this web portfolio absolutely likes illustrating. As an amateur, he tends to find anime characters so cool and proceeds to capture their characteristics in his notes.</p>
               </div>
             </Col>
             <Col lg={4}>
