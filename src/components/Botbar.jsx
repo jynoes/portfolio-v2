@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import "../styles/Botbar.css";
 import MainImage from "./MainImage";
 import WorkSlider from "./WorkSlider";
@@ -45,10 +45,23 @@ const Botbar = ({ activeSection }) => {
         <Container id="botbar-about">
           <Row className="about-row">
             <Col>
-              <img className="levi" src={levi}></img>
+              <img className="levi" src={levi} alt="levi"></img>
             </Col>
-            <Col></Col>
-            <Col></Col>
+            <Col lg={8} className="about-desc-col">
+              <Card className="philosophy-card text-center">
+                <div>
+                  <h3 className="blue-angel1">user centric designs</h3>
+                </div>
+                <div>
+                  <h3 className="philosophy">PHILOSOPHY</h3>
+                </div>
+                <div>
+                  <h3 className="blue-angel2">clean clear concise~</h3>
+                </div>
+              </Card>
+
+              <div>2</div>
+            </Col>
           </Row>
         </Container>
       )}
