@@ -43,7 +43,7 @@
 }
 
 .bi-stars {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* WORKS STYLING */
@@ -59,8 +59,6 @@
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
-
-
 
 /* WORK SLIDER STYLING */
 
@@ -78,12 +76,12 @@
 }
 
 .project-category {
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
   margin: 0;
 }
 
 .project-desc {
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
 .project-detail {
@@ -123,15 +121,11 @@
 }
 
 .about-desc-col {
-  padding: 1rem;
-  padding-right: 0;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .philosophy-card {
-  padding: 1rem;
-  padding-top: 1.4rem;
-  width: 50%;
+  width: 100%;
 }
 .philosophy {
   color: #f5f5f5;
@@ -140,25 +134,42 @@
   font-family: "Red Hat Display", sans-serif;
   -webkit-text-stroke: 1px black;
   letter-spacing: 6px;
-  margin-top: -0.8rem;
-  margin-bottom: -0.4rem;
+  margin: 0;
+  margin-bottom: -0.2rem;
 }
 
 .about-desc-col .blue-angel1 {
   font-size: 3rem;
   letter-spacing: 1.5px;
-  margin-top: -0.8rem;
   font-family: "BlueAngel", sans-serif;
+  margin-bottom: -0.8rem;
 }
 
 .about-desc-col .blue-angel2 {
   font-family: "BlueAngel", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   font-size: 3rem;
-  margin-top: -0.1rem;
 }
 
+.shrine {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-size: 20rem;
+  z-index: -1;
+  color: #121212;
+}
 
+.stonetower {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-size: 20rem;
+}
 
 /* MAIN IMAGE ANIMATION */
 

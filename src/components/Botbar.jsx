@@ -6,6 +6,9 @@ import MainImage from "./MainImage";
 import WorkSlider from "./WorkSlider";
 
 import levi from "../assets/levi12.png";
+import { GiShintoShrine } from "react-icons/gi";
+import { GiVikingHelmet } from "react-icons/gi";
+import { GiStoneTower } from "react-icons/gi";
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -44,11 +47,11 @@ const Botbar = ({ activeSection }) => {
       {activeSection === "About" && (
         <Container id="botbar-about">
           <Row className="about-row">
-            <Col>
+            <Col lg={4}>
               <img className="levi" src={levi} alt="levi"></img>
             </Col>
-            <Col lg={8} className="about-desc-col">
-              <Card className="philosophy-card text-center">
+            <Col lg={4} className="about-desc-col">
+              <div className="philosophy-card text-center">
                 <div>
                   <h3 className="blue-angel1">user centric designs</h3>
                 </div>
@@ -58,9 +61,10 @@ const Botbar = ({ activeSection }) => {
                 <div>
                   <h3 className="blue-angel2">clean clear concise~</h3>
                 </div>
-              </Card>
-
-              <div>2</div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <img className="levi" src={levi} alt="levi"></img>
             </Col>
           </Row>
         </Container>
