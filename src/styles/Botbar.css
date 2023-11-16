@@ -142,13 +142,16 @@
   font-size: 3rem;
   letter-spacing: 1.5px;
   font-family: "BlueAngel", sans-serif;
+  padding-top: 0.7rem;
   margin-bottom: -0.8rem;
+  border-top: 1px solid #121212;
 }
 
 .about-desc-col .blue-angel2 {
   font-family: "BlueAngel", sans-serif;
   letter-spacing: 1.2px;
   font-size: 3rem;
+  border-bottom: 1px solid #121212;
 }
 
 .shrine {
