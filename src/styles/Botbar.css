@@ -156,9 +156,64 @@
 }
 
 .about-desc1-container {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-left: 6rem;
   text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-desc1 {
+  line-height: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.about-slogan-col {
+  padding: 0.6rem 0 0.8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.about-slogan-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.slogan-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+}
+.slogan {
+  font-family: "StretchPro", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.5rem;
+  background-color: #f5f5f5;
+  z-index: 1;
+  line-height: 1.5rem;
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+}
+.slogan-line {
+  z-index: -1;
+  position: absolute;
+  top: -0.5rem;
+}
+.slogan-line::after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  ";
+  font-size: 1.3rem;
+}
+#botbar-about > div > div.about-slogan-col.col-lg-4 > div > div:nth-child(1) > div:nth-child(1) {
+  padding-right: 0.5rem;
 }
 
 /* MAIN IMAGE ANIMATION */

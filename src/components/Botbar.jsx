@@ -63,11 +63,45 @@ const Botbar = ({ activeSection }) => {
                 </div>
               </div>
               <div className="about-desc1-container">
-                <p className="about-desc1">The designer/developer of this web portfolio absolutely likes illustrating. As an amateur, he tends to find anime characters so cool and proceeds to capture their characteristics in his notes.</p>
+                <p className="about-desc1">
+                  The designer/developer of this portfolio absolutely likes
+                  illustrating. As an amateur, he find anime characters so cool
+                  then proceeds to capture their characteristics in his notes.
+                  He also enjoys looking at visual arts such as graphic and
+                  architectural designs, anime illustrations, paintings, etc. He
+                  plans to take that awe and enthusiasm to the next level in the
+                  future by pursuing a degree in arts.
+                </p>
               </div>
             </Col>
-            <Col lg={4}>
-              <img className="levi" src={levi} alt="levi"></img>
+            <Col lg={4} className="about-slogan-col">
+              <div className="about-slogan-container">
+                <Row className="slogan-container">
+                  <Col md="auto" className="slogan">1</Col>
+                  <Col md="auto" className="slogan-line"></Col>
+                  <Col md="auto" className="slogan">Explore</Col>
+                </Row>
+                <Row className="slogan-container">
+                  <Col md="auto" className="slogan">2</Col>
+                  <Col md="auto" className="slogan-line"></Col>
+                  <Col md="auto" className="slogan">Envision</Col>
+                </Row>
+                <Row className="slogan-container">
+                  <Col md="auto" className="slogan">3</Col>
+                  <Col md="auto" className="slogan-line"></Col>
+                  <Col md="auto" className="slogan">Establish</Col>
+                </Row>
+                <Row className="slogan-container">
+                  <Col md="auto" className="slogan">4</Col>
+                  <Col md="auto" className="slogan-line"></Col>
+                  <Col md="auto" className="slogan">Execute</Col>
+                </Row>
+                <Row className="slogan-container">
+                  <Col md="auto" className="slogan">5</Col>
+                  <Col md="auto" className="slogan-line"></Col>
+                  <Col md="auto" className="slogan">Excel</Col>
+                </Row>
+              </div>
             </Col>
           </Row>
         </Container>
