@@ -75,6 +75,7 @@ const Botbar = ({ activeSection }) => {
               </div>
             </Col>
             <Col lg={4} className="about-slogan-col">
+            <div>Education</div>
               <div className="about-slogan-container">
                 <Row className="slogan-container">
                   <Col md="auto" className="slogan">1</Col>
