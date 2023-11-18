@@ -1,219 +1,249 @@
-.botbar {
-  height: 45vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+@media only screen and (max-width: 1920px) {
+  .botbar {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.botbar2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .botbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.botbar1 {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
+  .botbar1 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
 
-.botbar3 {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  text-align: right;
-  gap: 1rem;
-}
+  .botbar3 {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    gap: 1rem;
+  }
 
-.intro-div1 {
-  width: 60%;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 18px;
-}
-.intro-div2 {
-  width: 60%;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 18px;
-}
+  .intro-div1 {
+    width: 60%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
+  .intro-div2 {
+    width: 60%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
 
-.bi-stars {
-  font-size: 3rem;
-}
+  .bi-stars {
+    font-size: 3rem;
+  }
 
-/* WORKS STYLING */
-.botbar-works {
-  cursor: move;
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
-}
+  /* WORKS STYLING */
+  .botbar-works {
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+  }
 
-.botbar-works:active {
-  cursor: grabbing;
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
-}
+  .botbar-works:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
 
-/* WORK SLIDER STYLING */
+  /* WORK SLIDER STYLING */
 
-.project-slide {
-  margin-top: 2rem;
-  margin-right: 0.4rem;
-  border: solid 2px #121212;
-  height: 45vh;
-  border-radius: 1rem;
-  box-shadow: 0.4rem 0.4rem #05060f;
-  padding: 1rem;
-}
+  .project-slide {
+    margin-top: 2rem;
+    margin-right: 0.4rem;
+    border: solid 2px #121212;
+    height: 45vh;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    padding: 1rem;
+  }
 
-.project-title {
-}
+  .project-title {
+  }
 
-.project-category {
-  font-family: "Red Hat Text", sans-serif;
-  margin: 0;
-}
+  .project-category {
+    font-family: "Red Hat Text", sans-serif;
+    margin: 0;
+  }
 
-.project-desc {
-  font-family: "Red Hat Text", sans-serif;
-}
+  .project-desc {
+    font-family: "Red Hat Text", sans-serif;
+  }
 
-.project-detail {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  align-items: center;
-}
+  .project-detail {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 
-.project-tools-container {
-  display: flex;
-  font-size: 2rem;
-}
-.project-tools {
-  display: flex;
-  gap: 4px;
-}
+  .project-tools-container {
+    display: flex;
+    font-size: 2rem;
+  }
+  .project-tools {
+    display: flex;
+    gap: 4px;
+  }
 
-/* BOTBAR  */
+  /* BOTBAR  */
 
-#botbar-about {
-  height: 45vh;
-}
+  #botbar-about {
+    height: 45vh;
+  }
 
-.about-row {
-  height: 100%;
-  position: relative;
-}
+  .about-row {
+    height: 100%;
+    position: relative;
+  }
 
-.levi {
-  position: absolute;
-  height: 90vh;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  filter: drop-shadow(1rem 1rem #121212);
-}
+  .levi {
+    position: absolute;
+    height: 90vh;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    filter: drop-shadow(1rem 1rem #121212);
+  }
 
-.about-desc-col {
-  padding-top: 1rem;
-}
+  .about-desc-col {
+    padding-top: 1rem;
+  }
 
-.philosophy-card {
-  width: 100%;
-  text-align: right;
-}
-.philosophy {
-  color: #f5f5f5;
-  font-size: 3rem;
-  font-weight: 900;
-  font-family: "Red Hat Display", sans-serif;
-  -webkit-text-stroke: 1px black;
-  letter-spacing: 6px;
-  margin: 0;
-  margin-bottom: -0.2rem;
-}
+  .philosophy-card {
+    width: 100%;
+    text-align: right;
+  }
+  .philosophy {
+    color: #f5f5f5;
+    -webkit-text-stroke: 1px black;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    letter-spacing: 6px;
+    margin: 0;
+    margin-bottom: -0.2rem;
+  }
 
-.about-desc-col .blue-angel1 {
-  font-size: 3rem;
-  letter-spacing: 1.5px;
-  font-family: "BlueAngel", sans-serif;
-  padding-top: 0.7rem;
-  margin-bottom: -0.8rem;
-  border-top: 1px solid #121212;
-}
+  .about-desc-col .blue-angel1 {
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    font-family: "BlueAngel", sans-serif;
+    padding-top: 0.7rem;
+    margin-bottom: -0.8rem;
+    border-top: 1px solid #121212;
+  }
 
-.about-desc-col .blue-angel2 {
-  font-family: "BlueAngel", sans-serif;
-  letter-spacing: 1.2px;
-  font-size: 3rem;
-  border-bottom: 1px solid #121212;
-}
+  .about-desc-col .blue-angel2 {
+    font-family: "BlueAngel", sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 3rem;
+    border-bottom: 1px solid #121212;
+  }
 
-.about-desc1-container {
-  margin-top: 0.5rem;
-  margin-left: 6rem;
-  text-align: justify;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.about-desc1 {
-  line-height: 23px;
-  margin: 0;
-  padding: 0;
-}
+  .about-desc1-container {
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-desc1 {
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+  }
 
-.about-slogan-col {
-  padding: 0.6rem 0 0.8rem 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.about-slogan-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
+  .about-slogan-col {
+    padding: 0.9rem 0 0.8rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-slogan-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
 
-.slogan-container {
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  position: relative;
-}
-.slogan {
-  font-family: "StretchPro", sans-serif;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  letter-spacing: 2px;
-  position: relative;
-  overflow: hidden;
-  font-size: 1.5rem;
-  background-color: #f5f5f5;
-  z-index: 1;
-  line-height: 1.5rem;
-  padding-left: 0.5rem;
-  margin-left: -0.5rem;
-}
-.slogan-line {
-  z-index: -1;
-  position: absolute;
-  top: -0.5rem;
-}
-.slogan-line::after {
-  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  ";
-  font-size: 1.3rem;
-}
-#botbar-about > div > div.about-slogan-col.col-lg-4 > div > div:nth-child(1) > div:nth-child(1) {
-  padding-right: 0.5rem;
+  .slogan-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+  }
+  .slogan {
+    font-family: "StretchPro", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.5rem;
+    background-color: #f5f5f5;
+    z-index: 1;
+    line-height: 1.5rem;
+    padding-left: 0.5rem;
+    margin-left: -0.5rem;
+  }
+  .slogan-line {
+    z-index: -1;
+    position: absolute;
+    top: -0.5rem;
+  }
+  .slogan-line::after {
+    content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  ";
+    font-size: 1.3rem;
+  }
+  #botbar-about
+    > div
+    > div.about-slogan-col.col-lg-4
+    > div
+    > div:nth-child(1)
+    > div:nth-child(1) {
+    padding-right: 0.5rem;
+  }
+  .about-education {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    /* border: solid 2px rgb(18, 18, 18, 0.5); */
+    border-radius: 1rem;
+    /* box-shadow: 0.4rem 0.4rem #f5f5f5;
+    margin-right: 0.4rem; */
+    background-color: rgb(18, 18, 18);
+  }
+  .pup {
+    font-size: 1.743rem;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.75rem;
+    color: #f5f5f5;
+    -webkit-text-stroke: 1px rgb(18, 18, 18, 0.5);
+  }
+  .pup2 {
+    font-size: 2.3rem;
+  }
 }
 
 /* MAIN IMAGE ANIMATION */

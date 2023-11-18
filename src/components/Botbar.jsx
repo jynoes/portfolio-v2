@@ -75,32 +75,56 @@ const Botbar = ({ activeSection }) => {
               </div>
             </Col>
             <Col lg={4} className="about-slogan-col">
-            <div>Education</div>
+              <div className="about-education">
+                <h3 className="pup">Polytechnic University <br /><span className="pup2">of the Philippines</span></h3>
+                <h4 className="cpe">Computer Engineering Graduate - Batch 2023</h4>
+                <h4 className="shs">STEM Track - Senior High School</h4>
+              </div>
               <div className="about-slogan-container">
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">1</Col>
+                  <Col md="auto" className="slogan">
+                    1
+                  </Col>
                   <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">Explore</Col>
+                  <Col md="auto" className="slogan">
+                    Explore
+                  </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">2</Col>
+                  <Col md="auto" className="slogan">
+                    2
+                  </Col>
                   <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">Envision</Col>
+                  <Col md="auto" className="slogan">
+                    Envision
+                  </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">3</Col>
+                  <Col md="auto" className="slogan">
+                    3
+                  </Col>
                   <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">Establish</Col>
+                  <Col md="auto" className="slogan">
+                    Establish
+                  </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">4</Col>
+                  <Col md="auto" className="slogan">
+                    4
+                  </Col>
                   <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">Execute</Col>
+                  <Col md="auto" className="slogan">
+                    Execute
+                  </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">5</Col>
+                  <Col md="auto" className="slogan">
+                    5
+                  </Col>
                   <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">Excel</Col>
+                  <Col md="auto" className="slogan">
+                    Excel
+                  </Col>
                 </Row>
               </div>
             </Col>
