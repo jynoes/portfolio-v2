@@ -76,9 +76,24 @@ const Botbar = ({ activeSection }) => {
             </Col>
             <Col lg={4} className="about-slogan-col">
               <div className="about-education">
-                <h3 className="pup">Polytechnic University <br /><span className="pup2">of the Philippines</span></h3>
-                <h4 className="cpe">Computer Engineering Graduate - Batch 2023</h4>
-                <h4 className="shs">STEM Track - Senior High School</h4>
+                <h3 className="pup">
+                  Polytechnic University <br />
+                  <span className="pup2">of the Philippines</span>
+                </h3>
+                <div className="cpe-row">
+                  <h4 className="cpe">
+                    Bachelor of Science in<br />Computer Engineering
+                  </h4>
+                  <h4 className="cpe-year">2023</h4>
+                </div>
+                <div className="shs-row">
+                  <h4 className="shs-year">2019</h4>
+                  <h4 className="shs">
+                  Senior High School
+                   - STEM
+                  </h4>
+                </div>
+
               </div>
               <div className="about-slogan-container">
                 <Row className="slogan-container">
