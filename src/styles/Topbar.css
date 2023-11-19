@@ -1,149 +1,158 @@
-.topbar {
-  margin: 0;
-  height: 30vh;
-  overflow: hidden;
-}
-
-.top-navbar {
-  height: 15vh;
-}
-
-.navbar {
-  padding: 3rem 0;
-}
-
-.navbar-container {
-  padding: 0;
-}
-
-#main-brand {
-  font-size: 2rem;
-  margin: 0;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.topbar-1 {
-  padding: 0;
-  line-height: 100%;
-  letter-spacing: 1px;
-}
-
-.topbar-2 {
+@media only screen and (max-width: 1920px) {
+  .topbar {
+    margin: 0;
+    height: 30vh;
+    overflow: hidden;
+  }
+  
+  .top-navbar {
+    height: 15vh;
+  }
+  
+  .navbar {
+    padding: 3rem 0;
+  }
+  
+  .navbar-container {
+    padding: 0;
+  }
+  
+  #main-brand {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-}
-
-.bolder {
-  font-weight: 700;
-}
-
-.topbar-3 {
-  padding: 0;
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  line-height: 100%;
-  letter-spacing: 1px;
-}
-
-.lato {
-  font-size: 52px;
-  font-family: "StretchPro", sans-serif;
-  letter-spacing: 8px;
-  margin: 0;
-  padding: 0;
-  margin-top: 1rem;
-}
-
-.blue-angel {
-  font-size: 160px;
-  font-family: "BlueAngel", sans-serif;
-  margin: 0;
-  padding: 0;
-  padding-top: 1rem;
-}
-
-/* WORKS STYLING */
-
-.works1 {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  gap: 1rem;
-}
-.works-div1 {
-  width: 50%;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 18px;
-  text-align: left;
-}
-
-.works3 {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  justify-content: right;
-  gap: 1rem;
-}
-.works-div3 {
-  width: 50%;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 18px;
-  text-align: right;
-}
-
-/* ABOUT STYLING */
-
-.about1, .about2, .about3 {
-  height: 30vh;
-}
-
-.about3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-right: -0.5rem;
-  position: relative;
-}
-
-.about3 .header1 .lato {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  font-size: 4.1rem;
-  letter-spacing: 7px;
-  margin-top: 1rem;
-  font-family: "BlueAngel", sans-serif;
-  top: 1.5rem;
-  right: 0;
-}
-
-.header3 .lato {
-  display: flex;
-  position: absolute;
-  font-size: 4rem;
-  letter-spacing: 7px;
-  margin-top: 1rem;
-  font-family: "BlueAngel", sans-serif;
-  top: 0;
-  right: 0;
-}
-
-.about-ashwolf {
-  height: 300px;
+  }
+  
+  .topbar-1 {
+    padding: 0;
+    line-height: 100%;
+    letter-spacing: 1px;
+  }
+  
+  .topbar-2 {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .bolder {
+    font-weight: 700;
+  }
+  
+  .topbar-3 {
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    line-height: 100%;
+    letter-spacing: 1px;
+  }
+  
+  .lato {
+    font-size: 52px;
+    font-family: "StretchPro", sans-serif;
+    letter-spacing: 8px;
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .blue-angel {
+    font-size: 160px;
+    font-family: "BlueAngel", sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+  }
+  
+  /* WORKS STYLING */
+  
+  .works1 {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+  }
+  .works-div1 {
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-align: left;
+  }
+  
+  .works3 {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: right;
+    gap: 1rem;
+  }
+  .works-div3 {
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-align: right;
+  }
+  
+  /* ABOUT STYLING */
+  
+  .about1, .about2, .about3 {
+    height: 30vh;
+  }
+  
+  .about3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -0.5rem;
+    position: relative;
+  }
+  
+  .about3 .header1 .lato {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    font-size: 4.1rem;
+    letter-spacing: 7px;
+    margin-top: 1rem;
+    font-family: "BlueAngel", sans-serif;
+    top: 1.5rem;
+    right: 0;
+  }
+  
+  .header3 .lato {
+    display: flex;
+    position: absolute;
+    font-size: 4rem;
+    letter-spacing: 7px;
+    margin-top: 1rem;
+    font-family: "BlueAngel", sans-serif;
+    top: 0;
+    right: 0;
+  }
+  
+  .about-ashwolf {
+    height: 300px;
+  }
+  
+  .about1 {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
 
 

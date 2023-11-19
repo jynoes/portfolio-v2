@@ -112,15 +112,6 @@
     position: relative;
   }
 
-  .levi {
-    position: absolute;
-    width: 37%;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    filter: drop-shadow(1rem 1rem #121212);
-  }
-
   .about-desc-col {
     padding-top: 1rem;
   }
@@ -131,7 +122,7 @@
   }
   .philosophy {
     color: #f5f5f5;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #121212;
     font-size: 3rem;
     font-weight: 900;
     font-family: "Red Hat Display", sans-serif;
@@ -172,7 +163,6 @@
 
   .about-slogan-col {
     padding: 0.9rem 0 0.8rem 1rem;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -293,6 +283,35 @@
     padding: 0;
     margin: 0;
     letter-spacing: 2px;
+  }
+  .practice-col {
+    padding: 1rem;
+    padding-left: 0;
+    margin-top: -0.5rem;
+  }
+  .practice {
+    position: relative;
+    width: 100%;
+    font-size: 3.35rem;
+    font-family: "StretchPro", sans-serif;
+    -webkit-text-stroke: 1px #121212;
+    color: #f5f5f5;
+    margin-top: -1rem;
+    z-index: -2;
+    height: 3rem;
+    padding: 0;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .levi {
+    position: absolute;
+    width: 37%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    filter: drop-shadow(1rem 1rem #121212);
+    /* display: none; */
   }
 }
 

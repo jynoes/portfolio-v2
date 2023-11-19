@@ -1,14 +1,11 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "../styles/Botbar.css";
 import MainImage from "./MainImage";
 import WorkSlider from "./WorkSlider";
 
 import levi from "../assets/levi12.png";
-import { GiShintoShrine } from "react-icons/gi";
-import { GiVikingHelmet } from "react-icons/gi";
-import { GiStoneTower } from "react-icons/gi";
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -47,7 +44,14 @@ const Botbar = ({ activeSection }) => {
       {activeSection === "About" && (
         <Container id="botbar-about">
           <Row className="about-row">
-            <Col lg={4}>
+            <Col lg={4} className="practice-col">
+              {Array(13)
+                .fill()
+                .map((_, index) => (
+                  <div className="practice" key={index}>
+                    PRACTICE
+                  </div>
+                ))}
               <img className="levi" src={levi} alt="levi"></img>
             </Col>
             <Col lg={4} className="about-desc-col">
@@ -93,7 +97,9 @@ const Botbar = ({ activeSection }) => {
                   <h4 className="shs-year">2019</h4>
                 </div>
                 <div className="svias-row">
-                  <h4 className="svias">Saint Vincent Institute of Arts & Sciences</h4>
+                  <h4 className="svias">
+                    Saint Vincent Institute of Arts & Sciences
+                  </h4>
                 </div>
               </div>
               <div className="about-slogan-container">

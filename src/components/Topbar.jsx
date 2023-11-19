@@ -3,8 +3,6 @@ import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 import "../styles/Topbar.css";
 
-
-
 const Topbar = ({ activeSection }) => {
   return (
     <div className="topbar">
@@ -51,11 +49,15 @@ const Topbar = ({ activeSection }) => {
       {activeSection === "About" && (
         <Container className="topbar-about">
           <Row className="text-center">
-            <Col className="about1">
+            <Col className="about1" lg={4}>
+            
+            </Col>
+
+            <Col className="about2" lg={3}>
               
             </Col>
-            <Col className="about2"></Col>
-            <Col className="about3">
+
+            <Col className="about3" lg={5}>
               <Row className="header1">
                 <h1 className="lato">designer</h1>
               </Row>
