@@ -82,20 +82,24 @@ const Botbar = ({ activeSection }) => {
                 </h3>
                 <div className="cpe-row">
                   <h4 className="cpe">
-                    Bachelor of Science in<br />Computer Engineering
+                    Bachelor of Science in
+                    <br />
+                    Computer Engineering
                   </h4>
                   <h4 className="cpe-year">2023</h4>
                 </div>
                 <div className="shs-row">
+                  <h4 className="shs">Senior High School - STEM Graduate</h4>
                   <h4 className="shs-year">2019</h4>
-                  <h4 className="shs">
-                  Senior High School
-                   - STEM
-                  </h4>
                 </div>
-
+                <div className="svias-row">
+                  <h4 className="svias">Saint Vincent Institute of Arts & Sciences</h4>
+                </div>
               </div>
               <div className="about-slogan-container">
+                <div className="career-process">
+                  <h4 className="career">Career Process</h4>
+                </div>
                 <Row className="slogan-container">
                   <Col md="auto" className="slogan">
                     1
