@@ -48,23 +48,17 @@ const Topbar = ({ activeSection }) => {
 
       {activeSection === "About" && (
         <Container className="topbar-about">
-          <Row className="text-center">
-            <Col className="about1" lg={4}>
-            
-            </Col>
-
-            <Col className="about2" lg={3}>
-              
-            </Col>
-
-            <Col className="about3" lg={5}>
-              <Row className="header1">
-                <h1 className="lato">designer</h1>
-              </Row>
-              <Row className="header2">
-                <h1 className="blue-angel">developer</h1>
-              </Row>
-            </Col>
+          <Row className="text-center about-row1">
+            <div className="about1">
+              <div className="about-headers">
+                <Row>
+                  <h1 className="blue-angel1">designer</h1>
+                </Row>
+                <Row className="header2">
+                  <h1 className="blue-angel">developer</h1>
+                </Row>
+              </div>
+            </div>
           </Row>
         </Container>
       )}

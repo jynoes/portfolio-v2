@@ -107,50 +107,42 @@
   
   /* ABOUT STYLING */
   
-  .about1, .about2, .about3 {
+  .about1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
     height: 30vh;
   }
-  
-  .about3 {
+  .about-headers {
+    text-align: right;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
-    margin-right: -0.5rem;
-    position: relative;
-  }
+    height: 30vh;
+    }
   
-  .about3 .header1 .lato {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    font-size: 4.1rem;
-    letter-spacing: 7px;
-    margin-top: 1rem;
-    font-family: "BlueAngel", sans-serif;
-    top: 1.5rem;
-    right: 0;
-  }
-  
-  .header3 .lato {
-    display: flex;
-    position: absolute;
-    font-size: 4rem;
-    letter-spacing: 7px;
-    margin-top: 1rem;
-    font-family: "BlueAngel", sans-serif;
-    top: 0;
-    right: 0;
-  }
-  
-  .about-ashwolf {
-    height: 300px;
-  }
-  
-  .about1 {
+  .about2 {
+    width: 100%;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    z-index: -2;
+  }
+  .about-lines {
+    width: 100%;
+  }
+  .about-line {
+    height: 1px;
+    background-color: #121212;
+    margin-bottom: 0.5rem;
+  }
+  .blue-angel1 {
+    font-family: "BlueAngel", sans-serif;
+    font-size: 4rem;
+    margin-bottom: -3rem;
+    letter-spacing: 6px;
   }
   
 }
