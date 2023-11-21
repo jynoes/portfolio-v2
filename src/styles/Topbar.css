@@ -4,48 +4,48 @@
     height: 30vh;
     overflow: hidden;
   }
-  
+
   .top-navbar {
     height: 15vh;
   }
-  
+
   .navbar {
     padding: 3rem 0;
   }
-  
+
   .navbar-container {
     padding: 0;
   }
-  
+
   #main-brand {
     font-size: 2rem;
     margin: 0;
     letter-spacing: 1px;
     cursor: pointer;
   }
-  
+
   .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
+
   .topbar-1 {
     padding: 0;
     line-height: 100%;
     letter-spacing: 1px;
   }
-  
+
   .topbar-2 {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
   }
-  
+
   .bolder {
     font-weight: 700;
   }
-  
+
   .topbar-3 {
     padding: 0;
     display: flex;
@@ -54,7 +54,7 @@
     line-height: 100%;
     letter-spacing: 1px;
   }
-  
+
   .lato {
     font-size: 52px;
     font-family: "StretchPro", sans-serif;
@@ -63,7 +63,7 @@
     padding: 0;
     margin-top: 1rem;
   }
-  
+
   .blue-angel {
     font-size: 160px;
     font-family: "BlueAngel", sans-serif;
@@ -71,9 +71,9 @@
     padding: 0;
     padding-top: 1rem;
   }
-  
+
   /* WORKS STYLING */
-  
+
   .works1 {
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@
     line-height: 18px;
     text-align: left;
   }
-  
+
   .works3 {
     display: flex;
     align-items: center;
@@ -104,9 +104,9 @@
     line-height: 18px;
     text-align: right;
   }
-  
+
   /* ABOUT STYLING */
-  
+
   .about1 {
     position: relative;
     display: flex;
@@ -123,8 +123,8 @@
     flex-direction: column;
     justify-content: flex-end;
     height: 30vh;
-    }
-  
+  }
+
   .about2 {
     width: 100%;
     padding: 0;
@@ -144,7 +144,74 @@
     margin-bottom: -3rem;
     letter-spacing: 6px;
   }
-  
+
+  .topbar-contact {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .topbar-contact-div {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .topbar-contact1 {
+    padding: 0;
+    margin: 0;
+  }
+  .hitmeup {
+    margin: 0;
+    font-family: "BlueAngel", sans-serif;
+    font-size: 80px;
+  }
+
+  .topbar-contact2 {
+    padding: 0;
+    margin: 0;
+  }
+  .possible {
+    font-size: 80px;
+    margin: 0;
+    padding-left: 2rem;
+    font-family: "BlueAngel", sans-serif;
+  }
+  .possible1 {
+    z-index: -3;
+    overflow: hidden;
+    -webkit-text-stroke: 1px #121212;
+    color: #f5f5f5;
+  }
+  .possible2 {
+    z-index: -2;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    -webkit-text-stroke: 1px #121212;
+    color: #f5f5f5;
+    margin-top: -2rem;
+  }
+  .possible3 {
+    z-index: -1;
+    background-color: #f5f5f5;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+  }
+  .possible4 {
+    z-index: -2;
+    background-color: #f5f5f5;
+    -webkit-text-stroke: 1px #121212;
+    color: #f5f5f5;
+    margin-bottom: -2rem;
+  }
+  .possible5 {
+    z-index: -3;
+    background-color: #f5f5f5;
+    -webkit-text-stroke: 1px #121212;
+    color: #f5f5f5;
+  }
 }
-
-
