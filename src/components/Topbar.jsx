@@ -62,6 +62,16 @@ const Topbar = ({ activeSection }) => {
           </Row>
         </Container>
       )}
+
+      {activeSection === "Playground" && (
+        <Container>
+        </Container>
+      )}
+
+      {activeSection === "Contact" && (
+        <Container>
+        </Container>
+      )}
     </div>
   );
 };
