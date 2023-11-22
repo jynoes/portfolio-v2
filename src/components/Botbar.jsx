@@ -6,7 +6,8 @@ import MainImage from "./MainImage";
 import WorkSlider from "./WorkSlider";
 
 import levi from "../assets/levi12.png";
-import paper from "../assets/rip paper 1.jpg"
+import paper from "../assets/rip paper 1.jpg";
+import { FaGithubSquare } from "react-icons/fa";import { FaLinkedin } from "react-icons/fa";import { IoMdMail } from "react-icons/io";
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -247,7 +248,23 @@ const Botbar = ({ activeSection }) => {
             </div>
           </Col>
           <Col lg={8} className="botbar-contact2">
-            <img className="paper" src={paper}></img>
+            <div className="contacts-div">
+              <div className="contacts-div1">
+                <h1 className="contacts">Email <IoMdMail className="contacts-icon"/></h1>
+                <p className="email">jynoe.sabido22@gmail.com</p>
+              </div>
+              <div className="contacts-div2">
+                <h1 className="contacts">GitHub <FaGithubSquare className="contacts-icon"/></h1>
+              </div>
+              <div className="contacts-div3">
+                <h1 className="contacts">LinkedIn <FaLinkedin className="contacts-icon"/></h1>
+              </div>
+            </div>
+            <img
+              className="paper"
+              src={paper}
+              alt="paper"
+            ></img>
           </Col>
         </Container>
       )}
