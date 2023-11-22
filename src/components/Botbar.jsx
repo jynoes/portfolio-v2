@@ -6,6 +6,7 @@ import MainImage from "./MainImage";
 import WorkSlider from "./WorkSlider";
 
 import levi from "../assets/levi12.png";
+import paper from "../assets/rip paper 1.jpg"
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -246,7 +247,7 @@ const Botbar = ({ activeSection }) => {
             </div>
           </Col>
           <Col lg={8} className="botbar-contact2">
-            2
+            <img className="paper" src={paper}></img>
           </Col>
         </Container>
       )}

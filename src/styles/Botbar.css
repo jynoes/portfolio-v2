@@ -340,8 +340,18 @@
     letter-spacing: 1.8px;
     margin-top: -1rem;
   }
-}
 
+  .botbar-contact2 {
+    padding-left: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .paper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
 
 .card {
   position: absolute;
@@ -355,7 +365,8 @@
   border-radius: 1rem;
   border: 2px solid #121212;
   overflow: hidden;
-  transition: all 1s ease-in-out;box-shadow: 0.4rem 0.4rem #05060f;
+  transition: all 1s ease-in-out;
+  box-shadow: 0.4rem 0.4rem #05060f;
 }
 
 .background {
@@ -501,7 +512,6 @@
   bottom: 20px;
   right: 20px;
 }
-
 
 /* MAIN IMAGE ANIMATION */
 
