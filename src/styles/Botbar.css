@@ -388,6 +388,7 @@
   .contacts-icon1, .contacts-icon2, .contacts-icon3 {
     margin-left: 1rem;
     font-size: 2.5rem;
+    transition: all .5s ease-in-out;
   }
   .email {
     font-size: 1.5rem;
@@ -400,16 +401,13 @@
     margin-top: -4px;
   }
   .contacts-div1:hover .contacts-icon1 {
-    transform: translateY(-4px);
-    transition: all .5s ease-in-out;
+    transform: translateY(-6px);
   }
   .contacts-div2:hover .contacts-icon2 {
-    transform: translateY(-4px);
-    transition: 0.5s ease-in-out;
+    transform: translateY(-6px);
   }
   .contacts-div3:hover .contacts-icon3 {
-    transform: translateY(-4px);
-    transition: 0.5s ease-in-out;
+    transform: translateY(-6px);
   }
   .contacts-div1 a, .contacts-div2 a, .contacts-div3 a {
     text-decoration: none;
@@ -459,8 +457,13 @@
 
 .logo .logo-svg {
   fill: #121212;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.orange {
+  font-size: 3rem;
+  transition: transform 1s ease-in-out;
 }
 
 .icon {
@@ -583,8 +586,12 @@
 
 .card:hover .logo {
   transform: translate(0, 0);
-  bottom: 20px;
-  right: 20px;
+  bottom: 15px;
+  right: 15px;
+}
+
+.card:hover .orange {
+  transform: scale(0.5);
 }
 
 /* MAIN IMAGE ANIMATION */

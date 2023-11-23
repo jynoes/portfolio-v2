@@ -12,6 +12,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { LuClipboard } from "react-icons/lu";
 import { LuClipboardCheck } from "react-icons/lu";
+import { FaStar } from "react-icons/fa";
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -222,7 +223,9 @@ const Botbar = ({ activeSection }) => {
             </div>
             <div class="card">
               <div class="background"></div>
-              <div class="logo"></div>
+              <div class="logo">
+                <FaStar className="orange"/>
+              </div>
               <div class="box box1">
                 <span class="icon">
                   <svg
