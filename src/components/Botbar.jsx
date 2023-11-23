@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 import "../styles/Botbar.css";
@@ -7,7 +7,11 @@ import WorkSlider from "./WorkSlider";
 
 import levi from "../assets/levi12.png";
 import paper from "../assets/rip paper 1.jpg";
-import { FaGithubSquare } from "react-icons/fa";import { FaLinkedin } from "react-icons/fa";import { IoMdMail } from "react-icons/io";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { LuClipboard } from "react-icons/lu";
+import { LuClipboardCheck } from "react-icons/lu";
 
 const introduction =
   "Jynoe is an aspiring designer from Quezon City, Philippines.";
@@ -15,6 +19,15 @@ const introduction2 =
   "Passionate about art — designing, illustrating, and studying visuals.";
 
 const Botbar = ({ activeSection }) => {
+  const emailRef = useRef(null);
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyClick = () => {
+    const emailText = emailRef.current.innerText;
+    navigator.clipboard.writeText(emailText);
+    setCopied(true);
+  };
+
   return (
     <div className="botbar">
       {activeSection === "Home" && (
@@ -250,21 +263,35 @@ const Botbar = ({ activeSection }) => {
           <Col lg={8} className="botbar-contact2">
             <div className="contacts-div">
               <div className="contacts-div1">
-                <h1 className="contacts">Email <IoMdMail className="contacts-icon"/></h1>
-                <p className="email">jynoe.sabido22@gmail.com</p>
+                <h1 className="contacts">
+                  Email <IoMdMail className="contacts-icon" />
+                </h1>
+                <p className="email">
+                  <span ref={emailRef} id="email">
+                    jynoe.sabido22@gmail.com
+                  </span>
+                  {copied ? (
+                    <LuClipboardCheck className="copy-icon" onClick={handleCopyClick}/>
+                  ) : (
+                    <LuClipboard
+                      className="copy-icon"
+                      onClick={handleCopyClick}
+                    />
+                  )}
+                </p>
               </div>
               <div className="contacts-div2">
-                <h1 className="contacts">GitHub <FaGithubSquare className="contacts-icon"/></h1>
+                <h1 className="contacts">
+                  GitHub <FaGithubSquare className="contacts-icon" />
+                </h1>
               </div>
               <div className="contacts-div3">
-                <h1 className="contacts">LinkedIn <FaLinkedin className="contacts-icon"/></h1>
+                <h1 className="contacts">
+                  LinkedIn <FaLinkedin className="contacts-icon" />
+                </h1>
               </div>
             </div>
-            <img
-              className="paper"
-              src={paper}
-              alt="paper"
-            ></img>
+            <img className="paper" src={paper} alt="paper"></img>
           </Col>
         </Container>
       )}
