@@ -263,15 +263,19 @@ const Botbar = ({ activeSection }) => {
           <Col lg={8} className="botbar-contact2">
             <div className="contacts-div">
               <div className="contacts-div1">
-                <h1 className="contacts">
-                  Email <IoMdMail className="contacts-icon" />
-                </h1>
+                <h1 className="contacts">Email</h1>
+                <IoMdMail className="contacts-icon1" />
+              </div>
+              <div className="div-email">
                 <p className="email">
                   <span ref={emailRef} id="email">
                     jynoe.sabido22@gmail.com
                   </span>
                   {copied ? (
-                    <LuClipboardCheck className="copy-icon" onClick={handleCopyClick}/>
+                    <LuClipboardCheck
+                      className="copy-icon"
+                      onClick={handleCopyClick}
+                    />
                   ) : (
                     <LuClipboard
                       className="copy-icon"
@@ -281,14 +285,12 @@ const Botbar = ({ activeSection }) => {
                 </p>
               </div>
               <div className="contacts-div2">
-                <h1 className="contacts">
-                  GitHub <FaGithubSquare className="contacts-icon" />
-                </h1>
+                <h1 className="contacts">GitHub</h1>{" "}
+                <FaGithubSquare className="contacts-icon2" />
               </div>
               <div className="contacts-div3">
-                <h1 className="contacts">
-                  LinkedIn <FaLinkedin className="contacts-icon" />
-                </h1>
+                <h1 className="contacts">LinkedIn</h1>{" "}
+                <FaLinkedin className="contacts-icon3" />
               </div>
             </div>
             <img className="paper" src={paper} alt="paper"></img>
