@@ -379,14 +379,11 @@
   .contacts:before {
     content: "";
     position: absolute;
-    bottom: -2px;
+    bottom: 0;
     height: 1px;
     width: 0;
     background: #121212;
     transition: width 0.3s ease;
-  }
-  .contacts:hover:before {
-    width: 100%;
   }
   .contacts-icon1, .contacts-icon2, .contacts-icon3 {
     margin-left: 1rem;
@@ -413,6 +410,20 @@
   .contacts-div3:hover .contacts-icon3 {
     transform: translateY(-4px);
     transition: 0.5s ease-in-out;
+  }
+  .contacts-div1 a, .contacts-div2 a, .contacts-div3 a {
+    text-decoration: none;
+    color: #121212;
+    display: flex;
+    align-items: center;
+  }
+  .contacts-div1 .contacts:hover:before, 
+  .contacts-div2 .contacts:hover:before, 
+  .contacts-div3 .contacts:hover:before {
+    width: 100%;
+  }
+  .contacts-icon1 .contacts:hover:before {
+    width: 100%;
   }
 }
 

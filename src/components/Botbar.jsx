@@ -263,8 +263,10 @@ const Botbar = ({ activeSection }) => {
           <Col lg={8} className="botbar-contact2">
             <div className="contacts-div">
               <div className="contacts-div1">
-                <h1 className="contacts">Email</h1>
-                <IoMdMail className="contacts-icon1" />
+                <a href="mailto:jynoe.sabido22@gmail.com">
+                  <h1 className="contacts">Email</h1>
+                  <IoMdMail className="contacts-icon1" />
+                </a>
               </div>
               <div className="div-email">
                 <p className="email">
@@ -285,12 +287,19 @@ const Botbar = ({ activeSection }) => {
                 </p>
               </div>
               <div className="contacts-div2">
-                <h1 className="contacts">GitHub</h1>{" "}
-                <FaGithubSquare className="contacts-icon2" />
+                <a href="https://github.com/jynoes" target="blank">
+                  <h1 className="contacts">GitHub</h1>{" "}
+                  <FaGithubSquare className="contacts-icon2" />
+                </a>
               </div>
               <div className="contacts-div3">
-                <h1 className="contacts">LinkedIn</h1>{" "}
-                <FaLinkedin className="contacts-icon3" />
+                <a
+                  href="https://www.linkedin.com/in/jynoe-sabido-aab142248/"
+                  target="blank"
+                >
+                  <h1 className="contacts">LinkedIn</h1>{" "}
+                  <FaLinkedin className="contacts-icon3" />
+                </a>
               </div>
             </div>
             <img className="paper" src={paper} alt="paper"></img>
