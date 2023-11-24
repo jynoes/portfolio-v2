@@ -228,7 +228,7 @@ const Botbar = ({ activeSection }) => {
               <div class="logo">
                 <FaStar className="orange" />
               </div>
-              <a href="https://wa.me/639776019106" target="_blank" rel="noreferrer">
+              <a href="https://wa.me/message/XS232AS4QJ5EE1" target="_blank" rel="noreferrer">
                 <div class="box box1">
                   <IoLogoWhatsapp className="social-icons1" />
                 </div>
