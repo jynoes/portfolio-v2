@@ -218,4 +218,8 @@
   .topbar-playground {
     height: 30vh;
   }
+  .topbar-playground-h1 {
+    font-size: 10rem;
+    font-family: "BlueAngel", sans-serif;
+  }
 }
