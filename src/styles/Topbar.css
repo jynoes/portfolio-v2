@@ -226,6 +226,7 @@
     font-family: "BlueAngel", sans-serif;
     margin: 0;
     padding: 0;
+    margin-bottom: -3rem;
   }
   .topbar-playground-h2 {
     font-family: "Red Hat Display", sans-serif;
@@ -234,5 +235,8 @@
     padding: 0;
     text-transform: uppercase;
     font-weight: 900;
+    -webkit-text-stroke: 1px #121212;
+    color: #f5f5f5;
+    letter-spacing: 6.5px;
   }
 }
