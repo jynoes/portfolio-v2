@@ -66,7 +66,7 @@ const Topbar = ({ activeSection }) => {
       {activeSection === "Playground" && (
         <Container className="topbar-playground">
           <Row>
-            <h1>my random design</h1>
+            <h1 className="topbar-playground-h2">my random design</h1>
           </Row>
           <Row>
             <h1 className="topbar-playground-h1">collections</h1>
