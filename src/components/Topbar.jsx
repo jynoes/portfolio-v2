@@ -69,7 +69,7 @@ const Topbar = ({ activeSection }) => {
             <h1 className="topbar-playground-h1">collections</h1>
           </Row>
           <Row>
-            <h1 className="topbar-playground-h2">my random design</h1>
+            <h1 className="topbar-playground-h2">some of my random designs</h1>
           </Row>
         </Container>
       )}
