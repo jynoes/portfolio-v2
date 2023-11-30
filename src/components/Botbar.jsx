@@ -177,7 +177,7 @@ const Botbar = ({ activeSection }) => {
 
       {activeSection === "Playground" && (
         <Container id="botbar-playground">
-          <Row>I have to add a Pinterest style menu here</Row>
+          <Row>test I have to add a Pinterest style menu here</Row>
         </Container>
       )}
 
