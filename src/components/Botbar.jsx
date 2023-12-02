@@ -7,6 +7,7 @@ import WorkSlider from "./WorkSlider";
 
 import levi from "../assets/levi12-min.png";
 import paper from "../assets/rip paper 1.jpg";
+import merry from "../assets/merry.png";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin, FaDiscord } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -297,6 +298,7 @@ const Botbar = ({ activeSection }) => {
                 </a>
               </div>
             </div>
+            <img className="merry"></img>
             <img className="paper" src={paper} alt="paper"></img>
           </Col>
         </Container>
