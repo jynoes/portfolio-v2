@@ -435,16 +435,22 @@
     position: absolute;
     height: 350px;
     width: 350px;
-    left: 200px;
-    animation: goingMerry 2s infinite;
+    left: 100px;
+    animation: goingMerry 2s infinite ease-in-out;
     filter: drop-shadow(1rem 1rem #121212);
   }
 }
 
 @keyframes goingMerry {
-  0%   {top: 0px;}
-  50%  {top: 10px;}
-  100% {top: 0px;}
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .card {
