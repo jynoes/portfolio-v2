@@ -436,7 +436,15 @@
     height: 350px;
     width: 350px;
     left: 200px;
+    animation: goingMerry 2s infinite;
+    filter: drop-shadow(1rem 1rem #121212);
   }
+}
+
+@keyframes goingMerry {
+  0%   {top: 0px;}
+  50%  {top: 10px;}
+  100% {top: 0px;}
 }
 
 .card {
