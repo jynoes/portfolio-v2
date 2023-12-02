@@ -430,6 +430,13 @@
   .contacts-icon1 .contacts:hover:before {
     width: 100%;
   }
+
+  .merry {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    left: 200px;
+  }
 }
 
 .card {
