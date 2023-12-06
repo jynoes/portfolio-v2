@@ -17,7 +17,8 @@ const styles = {
     margin: '10px 0px',
     padding: 0,
     borderRadius: '16px',
-    border: "solid 2px #121212"
+    border: "solid 2px #121212",
+    boxShadow: "0.4rem 0.4rem #05060f"
   },
   small: {
     gridRowEnd: 'span 26'
