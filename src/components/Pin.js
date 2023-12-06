@@ -3,14 +3,12 @@ import { Container } from 'react-bootstrap'
 
 function Pin(props) {
   return (
-    <Container >
     <div style={{
       ...styles.pin,
       ...styles[props.size]
     }}>
 
     </div>
-    </Container>
   )
 }
 
