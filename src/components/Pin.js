@@ -14,7 +14,7 @@ function Pin(props) {
 
 const styles = {
   pin: {
-    margin: '15px 10px',
+    margin: '10px 0px',
     padding: 0,
     borderRadius: '16px',
     backgroundColor: 'red'
