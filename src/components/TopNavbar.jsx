@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import { Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import "../styles/Topbar.css";
+
+const titles = ["summertonic", "simple", "steady"]
 
 
 const TopNavbar = ({ onResetClick }) => {
@@ -15,11 +17,13 @@ const TopNavbar = ({ onResetClick }) => {
             Excited for 
             <span className="bolder"> Designer &<br />Developer </span>Positions
           </Col>
+
           <Col lg={4}>
             <Navbar.Brand id="main-brand" className="topbar-2" onClick={() => { setActiveSection("Home"); onResetClick(); }}>
               summertonic
             </Navbar.Brand>
           </Col>
+
           <Col lg={4}>
             <Container className="topbar-3">
               Portfolio <br /> — Volume 2
