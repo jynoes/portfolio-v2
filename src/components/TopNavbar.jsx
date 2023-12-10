@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { Col } from "react-bootstrap";
 import "../styles/Topbar.css";
+import { CSSTransition } from 'react-transition-group';
+
 
 const words = ["summertonic", "transition", "another", "word", "example"];
 
