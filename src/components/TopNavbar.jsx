@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Col } from "react-bootstrap";
 import "../styles/Topbar.css";
 
-const words = ['summertonic', 'transition', 'another', 'word', 'example'];
+const words = ["summertonic", "transition", "another", "word", "example"];
 
 const TopNavbar = ({ onResetClick }) => {
   const [activeSection, setActiveSection] = useState("Home");
@@ -46,6 +46,10 @@ const TopNavbar = ({ onResetClick }) => {
             onClick={() => {
               setActiveSection("Home");
               onResetClick();
+            }}
+            style={{
+              opacity: transitionWord === words[currentIndex] ? 1 : 0,
+              transition: "opacity 0.5s",
             }}
           >
             {transitionWord}
