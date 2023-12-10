@@ -3,8 +3,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { Col } from "react-bootstrap";
 import "../styles/Topbar.css";
-import { CSSTransition } from 'react-transition-group';
-
+import { CSSTransition } from "react-transition-group";
 
 const words = ["summertonic", "transition", "another", "word", "example"];
 
@@ -42,20 +41,23 @@ const TopNavbar = ({ onResetClick }) => {
         </Col>
 
         <Col lg={4}>
-          <Navbar.Brand
-            id="main-brand"
-            className="topbar-2"
-            onClick={() => {
-              setActiveSection("Home");
-              onResetClick();
-            }}
-            style={{
-              opacity: transitionWord === words[currentIndex] ? 1 : 0,
-              transition: "opacity 0.5s",
-            }}
+          <CSSTransition
+            in={true}
+            appear={true}
+            timeout={500}
+            classNames="fade"
           >
-            {transitionWord}
-          </Navbar.Brand>
+            <Navbar.Brand
+              id="main-brand"
+              className="topbar-2"
+              onClick={() => {
+                setActiveSection("Home");
+                onResetClick();
+              }}
+            >
+              {transitionWord}
+            </Navbar.Brand>
+          </CSSTransition>
         </Col>
 
         <Col lg={4}>
