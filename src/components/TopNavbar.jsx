@@ -34,7 +34,7 @@ const TopNavbar = ({ onResetClick }) => {
           Excited for
           <span className="bolder">
             {" "}
-            Designer &<br />
+            Designer &amp;<br />
             Developer{" "}
           </span>
           Positions
@@ -55,7 +55,7 @@ const TopNavbar = ({ onResetClick }) => {
                 onResetClick();
               }}
             >
-              {transitionWord}
+              <span className="rolling-up-animation">{transitionWord}</span>
             </Navbar.Brand>
           </CSSTransition>
         </Col>
@@ -71,3 +71,4 @@ const TopNavbar = ({ onResetClick }) => {
 };
 
 export default TopNavbar;
+
