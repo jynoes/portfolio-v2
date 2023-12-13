@@ -17,7 +17,7 @@ const TopNavbar = ({ onResetClick }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 2000); // Interval duration in milliseconds
+    }, 10000); // Interval duration in milliseconds
 
     return () => {
       clearInterval(interval);
