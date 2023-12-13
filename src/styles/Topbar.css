@@ -37,9 +37,14 @@
     letter-spacing: 1px;
   }
 
+  .animated-header-col {
+    overflow: hidden;
+  }
+
   .topbar-2 {
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
   }
 
   .bolder {
@@ -243,17 +248,25 @@
 }
 
 
-@keyframes rolling-up {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.fade-enter {
+  opacity: 0;
+  transform: translateY(100%);
 }
 
-.rolling-up-animation {
-  animation: rolling-up 0.5s ease-in-out;
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 500ms, transform 500ms;
 }
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 500ms, transform 500ms;
+}
+

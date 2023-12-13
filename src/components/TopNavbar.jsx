@@ -12,6 +12,7 @@ const TopNavbar = ({ onResetClick }) => {
 
   const [transitionWord, setTransitionWord] = useState(words[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [showWord, setShowWord] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,7 +26,12 @@ const TopNavbar = ({ onResetClick }) => {
 
   useEffect(() => {
     setTransitionWord(words[currentIndex]);
+    setShowWord(true);
   }, [currentIndex]);
+
+  const handleTransitionEnd = () => {
+    setShowWord(false);
+  };
 
   return (
     <Navbar expand="lg" className="top-navbar">
@@ -34,18 +40,19 @@ const TopNavbar = ({ onResetClick }) => {
           Excited for
           <span className="bolder">
             {" "}
-            Designer &amp;<br />
+            Designer &<br />
             Developer{" "}
           </span>
           Positions
         </Col>
 
-        <Col lg={4}>
+        <Col lg={4} className="animated-header-col">
           <CSSTransition
-            in={true}
+            in={showWord}
             appear={true}
-            timeout={500}
+            timeout={1000}
             classNames="fade"
+            onEntered={handleTransitionEnd}
           >
             <Navbar.Brand
               id="main-brand"
@@ -55,7 +62,7 @@ const TopNavbar = ({ onResetClick }) => {
                 onResetClick();
               }}
             >
-              <span className="rolling-up-animation">{transitionWord}</span>
+              {transitionWord}
             </Navbar.Brand>
           </CSSTransition>
         </Col>
@@ -71,4 +78,5 @@ const TopNavbar = ({ onResetClick }) => {
 };
 
 export default TopNavbar;
+
 
