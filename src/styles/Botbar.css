@@ -442,7 +442,7 @@
 
   /* BOTBAR PLAYGROUND STYLING */
   #botbar-playground {
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 
