@@ -441,9 +441,10 @@
   }
 
   /* BOTBAR PLAYGROUND STYLING */
-  .
+  #botbar-playground {
+    overflow: scroll;
+  }
 }
-
 
 /* UNIVERSAL STYLING */
 
