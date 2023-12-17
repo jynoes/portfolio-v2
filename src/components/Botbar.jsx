@@ -178,7 +178,7 @@ const Botbar = ({ activeSection }) => {
       )}
 
       {activeSection === "Playground" && (
-        <Container id="botbar-playground">
+        <Container id="botbar-playground" className="botbar=playground">
           <PinterestLayout />
         </Container>
       )}
