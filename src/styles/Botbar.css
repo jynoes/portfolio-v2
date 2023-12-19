@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    overflow: scroll;
   }
 
   .botbar2 {
@@ -443,12 +442,12 @@
 
   /* BOTBAR PLAYGROUND STYLING */
   .botbar-playground {
-    overflow: scroll;
+    overflow: scroll !important;
   height: 40vh;
   }
 
   .scrollable-section {
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     max-height: 100vh;
   }
 }
