@@ -445,6 +445,11 @@
     overflow: scroll;
   height: 40vh;
   }
+
+  .scrollable-section {
+    overflow-y: scroll;
+    max-height: 100vh;
+  }
 }
 
 /* UNIVERSAL STYLING */
