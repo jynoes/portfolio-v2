@@ -178,7 +178,7 @@ const Botbar = ({ activeSection }) => {
       )}
 
       {activeSection === "Playground" && (
-        <Container id="botbar-playground" className="botbar=playground" style={{ overflowY: 'scroll', maxHeight: '100vh' }}>
+        <Container id="botbar-playground" className="botbar=playground scrollable-section" >
           <PinterestLayout />
         </Container>
       )}
