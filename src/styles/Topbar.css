@@ -247,6 +247,10 @@
   }
 }
 
+@media only screen and (max-width: 1920px) {
+  
+}
+
 
 .fade-enter {
   opacity: 0;
