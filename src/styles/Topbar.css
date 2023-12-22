@@ -254,6 +254,18 @@
   .topbar-2 {
     display: none;
   }
+  .topbar-playground-h1 {
+    font-size: 5rem;
+  }
+  .topbar-playground-h2 {
+    font-size: 2rem;
+  }
+  .topbar {
+    margin: 0;
+    height: 20vh;
+    overflow: hidden;
+    padding: 1rem;
+  }
 }
 
 
