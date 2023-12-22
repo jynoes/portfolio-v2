@@ -266,6 +266,12 @@
     overflow: hidden;
     padding: 1rem;
   }
+  .topbar-playground {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 
