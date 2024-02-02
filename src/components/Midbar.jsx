@@ -18,28 +18,38 @@ const Midbar = () => {
   return (
     <>
       <TopNavbar onResetClick={handleResetClick} />
-      
+
       <Topbar activeSection={activeSection} />
 
       <div className="midbar">
         <Container>
           <Row>
-              <Col className="midbar1" onClick={() => setActiveSection("Works")}>
-                {" "}
-                <span className="bolder">Works</span>
-              </Col>
+            <Col className="midbar1" onClick={() => setActiveSection("Works")}>
+              {" "}
+              <span className="bolder">Works</span>
+            </Col>
+
             <Col className="midbar2" onClick={() => setActiveSection("About")}>
               {" "}
               <span className="bolder">About</span>
             </Col>
-            <Col className="midbar3" onClick={() => setActiveSection("Playground")}>
+
+            <Col
+              className="midbar3"
+              onClick={() => setActiveSection("Playground")}
+            >
               {" "}
               <span className="bolder">Playground</span>
             </Col>
-            <Col className="midbar4" onClick={() => setActiveSection("Contact")}>
+
+            <Col
+              className="midbar4"
+              onClick={() => setActiveSection("Contact")}
+            >
               {" "}
               <span className="bolder">Contact</span>
             </Col>
+
             <Col className="midbar5">
               {" "}
               <span className="bolder">&copy; {date}</span>
