@@ -24,18 +24,18 @@ const Midbar = () => {
       <div className="midbar">
         <Container>
           <Row>
-            <Col className="midbar1" onClick={() => setActiveSection("Works")}>
+            <Col className={`midbar1 ${activeSection === "Works" ? "active" : ""}`} onClick={() => setActiveSection("Works")}>
               {" "}
               <span className="bolder">Works</span>
             </Col>
 
-            <Col className="midbar2" onClick={() => setActiveSection("About")}>
+            <Col className={`midbar2 ${activeSection === "About" ? "active" : ""}`} onClick={() => setActiveSection("About")}>
               {" "}
               <span className="bolder">About</span>
             </Col>
 
             <Col
-              className="midbar3"
+              className={`midbar3 ${activeSection === "Playground" ? "active" : ""}`}
               onClick={() => setActiveSection("Playground")}
             >
               {" "}
@@ -43,7 +43,7 @@ const Midbar = () => {
             </Col>
 
             <Col
-              className="midbar4"
+              className={`midbar4 ${activeSection === "Contact" ? "active" : ""}`}
               onClick={() => setActiveSection("Contact")}
             >
               {" "}
