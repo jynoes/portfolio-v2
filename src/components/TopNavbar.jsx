@@ -5,7 +5,7 @@ import { Col } from "react-bootstrap";
 import "../styles/Topbar.css";
 import { CSSTransition } from "react-transition-group";
 
-const words = ["summertonic", "illustrator", "another", "word", "example"];
+const words = ["summertonic", "illustrator", "copywriter", "word", "example"];
 
 const TopNavbar = ({ onResetClick }) => {
   const [activeSection, setActiveSection] = useState("Home");
