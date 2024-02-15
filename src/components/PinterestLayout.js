@@ -15,16 +15,21 @@ function PinterestLayout() {
         <Pin size="small" />
         <Pin size="medium" />
         <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
       </Container>
     </div>
   );
 }
 
 const styles = {
-  scrollableContainer: {
-    height: "100vh",
-    overflowY: "auto",
-  },
   pin_container: {
     margin: 0,
     padding: 0,
