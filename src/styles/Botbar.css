@@ -443,7 +443,12 @@
   /* BOTBAR PLAYGROUND STYLING */
   .botbar-playground {
     overflow: scroll !important;
-  height: 40vh;
+    height: 40vh;
+    padding: 0;
+  }
+
+  #botbar-playground {
+    padding: 0;
   }
 
   .scrollable-section {

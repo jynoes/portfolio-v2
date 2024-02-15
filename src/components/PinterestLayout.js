@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 function PinterestLayout() {
   return (
-    <div style={styles.scrollableContainer}>
+    <div>
       <Container style={styles.pin_container}>
         <Pin size="small" />
         <Pin size="medium" />
@@ -21,16 +21,12 @@ function PinterestLayout() {
 }
 
 const styles = {
-  scrollableContainer: {
-    height: "100vh", // Set the height to 100% of viewport height
-    overflowY: "auto", // Enable vertical scrolling
-  },
   pin_container: {
     margin: 0,
     padding: 0,
     marginTop: "-10px",
     width: "100%",
-    position: "absolute",
+    position: "relative",
     left: "50%",
     transform: "translateX(-50%)",
     display: "grid",
