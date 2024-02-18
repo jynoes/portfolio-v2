@@ -42,6 +42,42 @@ function PinterestLayout() {
         <Pin size="small" />
         <Pin size="medium" />
         <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
+        <Pin size="small" />
+        <Pin size="medium" />
+        <Pin size="large" />
       </Container>
     </div>
   );
