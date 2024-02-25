@@ -56,8 +56,6 @@ const styles = {
     gridTemplateColumns: "repeat(auto-fill, 250px)",
     gridAutoRows: "10px",
     justifyContent: "space-between",
-    justifyContent: "space-between",
-    justifyContent: "space-between",
   },
 };
 
