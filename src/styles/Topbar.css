@@ -274,6 +274,14 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  /* WORKS SECTION */
+  .header1 {
+    margin-top: -1rem;
+  }
+  .lato {
+    font-size: 2.5rem;
+  }
 }
 
 
