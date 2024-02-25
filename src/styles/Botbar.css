@@ -457,6 +457,26 @@
   }
 }
 
+
+/*  */
+/*  */
+/* MOBILE RESPONSIVENESS */
+/*  */
+/*  */
+
+@media only screen and (max-width: 430px) {
+  .swiper-slide {
+    padding: 0 1rem;
+    margin-right: 0;
+  }
+  .mySwiper {
+  }
+}
+
+
+
+
+
 /* Scrollbar Track */
 ::-webkit-scrollbar {
   width: 12px; /* width of the scrollbar */

@@ -122,10 +122,12 @@ const projectList = [
 ];
 
 const WorkSlider = () => {
+  const isMobile = window.innerWidth <= 430;
+  
   return (
     <Swiper
-      slidesPerView={3}
-      spaceBetween={30}
+      slidesPerView={isMobile ? 1 : 3}
+      spaceBetween={isMobile ? 0 : 30}
       freeMode={true}
       modules={[FreeMode, Pagination]}
       className="mySwiper"

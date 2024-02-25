@@ -53,3 +53,11 @@
   box-shadow: 0.4rem 0.4rem #05060f;
 }
 
+@media only screen and (max-width: 430px) {
+  .midbar {
+    margin: 0 1rem;
+  }
+  .midbar5 {
+    display: none;
+  }
+}
