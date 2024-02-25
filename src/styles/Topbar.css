@@ -294,6 +294,33 @@
   .works1 {
     justify-content: center;
   }
+
+  /* CONTACTS SECTION */
+  .topbar-contact {
+    padding: 0;
+
+  }
+  .topbar-contact-div {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .topbar-contact2 {
+    margin: 0 auto;
+  }
+  .hitmeup {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .possible {
+    font-size: 5.5rem;
+  }
+  .possible1, .possible2, .possible4, .possible5 {
+    display: none;
+  }
+  .possible3 {
+    margin: 0;
+  }
 }
 
 

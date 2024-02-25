@@ -469,7 +469,22 @@
     padding: 0 1rem;
     margin-right: 0;
   }
-  .mySwiper {
+  #botbar-contact {
+    display: inline;
+  }
+  .botbar-contact1 {
+    display: none;
+  }
+  .botbar-contact2 {
+    padding: 0;
+    position: static;
+    margin-right: 1rem;
+  }
+  .merry {
+    height: 200px;
+    width: 200px;
+    left: 30px;
+    bottom: 30px;
   }
 }
 
