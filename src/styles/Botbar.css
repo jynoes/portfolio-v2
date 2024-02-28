@@ -511,9 +511,24 @@
   .practice-col {
     padding: 0;
     margin: 0 0.5rem;
+    margin-left: 1.5rem;
   }
   .practice {
     font-size: 3rem;
+  }
+  .levi {
+    width: 60%;
+    left: 50px;
+  }
+
+  .about-desc-col {
+    margin-left: 1.5rem;
+  }
+  #botbar-about > div > div.about-desc-col.col-lg-4 > div.philosophy-card > div:nth-child(1) > h3, #botbar-about > div > div.about-desc-col.col-lg-4 > div.philosophy-card > div:nth-child(3) > h3 {
+    font-size: 2.5rem;
+  }
+  #botbar-about > div > div.about-desc-col.col-lg-4 > div.philosophy-card > div:nth-child(1) > h3 {
+    padding-bottom: 1rem;
   }
 }
 
