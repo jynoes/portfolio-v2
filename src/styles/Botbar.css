@@ -493,13 +493,27 @@
 
   /*  */
   /*  */
-  /* PLAYGROUND STYLING */
+  /* PLAYGROUND STYLES */
   /*  */
   /*  */
 
   .scrollableContainer {
     padding: 0;
     margin-left: 1rem;
+  }
+
+  /*  */
+  /*  */
+  /* ABOUT STYLES */
+  /*  */
+  /*  */
+
+  .practice-col {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .practice {
+    font-size: 3rem;
   }
 }
 

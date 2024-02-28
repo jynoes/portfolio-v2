@@ -321,6 +321,28 @@
   .possible3 {
     margin: 0;
   }
+
+  /*  */
+  /*  */
+  /* ABOUT SECTION */
+  /*  */
+  /*  */
+
+  #root > div > div.topbar > div > div > div > div > div.header2.row > h1 {
+    font-size: 5rem;
+    padding: 0;
+    padding-right: 0.5rem;
+  }
+  .blue-angel1 {
+    font-size: 4rem;
+    padding: 0;
+    padding-bottom: 2.5rem;
+  }
+  .about-row {
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 
