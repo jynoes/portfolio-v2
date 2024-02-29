@@ -540,6 +540,9 @@
   .shs {
     font-size: 1rem;
   }
+  .svias-row {
+    display: none;
+  }
 }
 
 
