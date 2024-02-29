@@ -543,6 +543,10 @@
   .svias-row {
     display: none;
   }
+
+  .about-slogan-container {
+    margin-top: 1rem;
+  }
 }
 
 
