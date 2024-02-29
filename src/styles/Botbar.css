@@ -547,6 +547,11 @@
   .about-slogan-container {
     margin-top: 1rem;
   }
+  .slogan-container {
+    max-width: none;
+    display: inline;
+  }
+  
 }
 
 
