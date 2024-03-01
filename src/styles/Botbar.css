@@ -547,11 +547,12 @@
   .about-slogan-container {
     margin-top: 1rem;
   }
-  .slogan-container {
-    max-width: none;
-    display: inline;
+  .slogan-line::after {
+    display: none;
   }
-  
+  .slogan-line {
+    display: none;
+  }
 }
 
 

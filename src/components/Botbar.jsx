@@ -127,11 +127,11 @@ const Botbar = ({ activeSection }) => {
                   <h4 className="career">Career Process</h4>
                 </div>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2} className="slogan">
                     1
                   </Col>
-                  <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2} className="slogan-line"></Col>
+                  <Col md="auto" xs={8} className="slogan">
                     Explore
                   </Col>
                 </Row>
