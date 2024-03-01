@@ -136,38 +136,38 @@ const Botbar = ({ activeSection }) => {
                   </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto"  xs={2} className="slogan">
+                  <Col md="auto" xs={2} className="slogan">
                     2
                   </Col>
-                  <Col md="auto"  xs={2} className="slogan-line"></Col>
-                  <Col md="auto"  xs={8} className="slogan">
+                  <Col md="auto" xs={2} className="slogan-line"></Col>
+                  <Col md="auto" xs={8} className="slogan">
                     Envision
                   </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2} className="slogan">
                     3
                   </Col>
-                  <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2} className="slogan-line"></Col>
+                  <Col md="auto" xs={8}  className="slogan">
                     Establish
                   </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2}  className="slogan">
                     4
                   </Col>
-                  <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2}  className="slogan-line"></Col>
+                  <Col md="auto" xs={8}  className="slogan">
                     Execute
                   </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2}  className="slogan">
                     5
                   </Col>
-                  <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">
+                  <Col md="auto" xs={2}  className="slogan-line"></Col>
+                  <Col md="auto" xs={8}  className="slogan">
                     Excel
                   </Col>
                 </Row>
