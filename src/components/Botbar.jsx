@@ -136,11 +136,11 @@ const Botbar = ({ activeSection }) => {
                   </Col>
                 </Row>
                 <Row className="slogan-container">
-                  <Col md="auto" className="slogan">
+                  <Col md="auto"  xs={2} className="slogan">
                     2
                   </Col>
-                  <Col md="auto" className="slogan-line"></Col>
-                  <Col md="auto" className="slogan">
+                  <Col md="auto"  xs={2} className="slogan-line"></Col>
+                  <Col md="auto"  xs={8} className="slogan">
                     Envision
                   </Col>
                 </Row>
