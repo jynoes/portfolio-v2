@@ -100,6 +100,15 @@
     display: flex;
     gap: 4px;
   }
+  .project-image {
+    width: 360px;
+    border-radius: 1rem;
+  }
+  .project-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   /* BOTBAR  */
 

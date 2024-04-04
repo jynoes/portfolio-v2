@@ -126,7 +126,7 @@ const projectList = [
 
 const WorkSlider = () => {
   const isMobile = window.innerWidth <= 430;
-  
+
   return (
     <Swiper
       slidesPerView={isMobile ? 1 : 3}
@@ -154,7 +154,13 @@ const WorkSlider = () => {
               <p className="project-category">{val.category}</p>
             </div>
             <p className="project-desc">{val.desc}</p>
-            <img src={val.imgUrl} alt={val.imgAlt}></img>
+            <div className="project-image-container">
+              <img
+                src={val.imgUrl}
+                alt={val.imgAlt}
+                className="project-image"
+              ></img>
+            </div>
           </div>
         </SwiperSlide>
       ))}
