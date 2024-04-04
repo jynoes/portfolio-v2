@@ -18,6 +18,11 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 // Project Images Import
 import pades from "../assets/workImages/actual-project-5.png";
+import nike from "../assets/workImages/actual-project-7.png";
+import todo from "../assets/workImages/actual-project-1.png";
+import pokedex from "../assets/workImages/actual-project-2.png";
+import techdocu from "../assets/workImages/actual-project-4.png";
+import tribute from "../assets/workImages/actual-project-3.png";
 
 const projectList = [
   {
@@ -42,7 +47,7 @@ const projectList = [
     title: "Nike Website Simple Rebuild",
     category: "Study Project",
     desc: "",
-    imgUrl: "",
+    imgUrl: `${nike}`,
     imgAlt: "",
     stack: [
       {
@@ -59,7 +64,7 @@ const projectList = [
     title: "To-Do List Web Application",
     category: "Capstone Project / Udemy",
     desc: "",
-    imgUrl: "",
+    imgUrl: `${todo}`,
     imgAlt: "",
     stack: [
       {
@@ -76,7 +81,7 @@ const projectList = [
     title: "Static PokeDex Website",
     category: "Study Project",
     desc: "",
-    imgUrl: "",
+    imgUrl: `${pokedex}`,
     imgAlt: "",
     stack: [
       {
@@ -93,7 +98,7 @@ const projectList = [
     title: "Technical Documentation Webpage",
     category: "Capstone Project / freeCodeCamp",
     desc: "",
-    imgUrl: "",
+    imgUrl: `${techdocu}`,
     imgAlt: "",
     stack: [
       {
@@ -110,7 +115,7 @@ const projectList = [
     title: "Tribute Webpage",
     category: "Capstone Project / freeCodeCamp",
     desc: "",
-    imgUrl: "",
+    imgUrl: `${tribute}`,
     imgAlt: "",
     stack: [
       {
