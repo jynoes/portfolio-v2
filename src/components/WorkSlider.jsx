@@ -16,14 +16,17 @@ import { FaReact, FaBootstrap, FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 
+// Project Images Import
+import pades from "../assets/workImages/actual-project-5.png";
+
 const projectList = [
   {
     id: 1,
     title: "PADES Printing Website",
     category: "Freelance Work",
     desc: "",
-    imgUrl: "",
-    imgAlt: "",
+    imgUrl: `${pades}`,
+    imgAlt: "Pades Printing Website",
     stack: [
       {
         html: true,
@@ -151,6 +154,7 @@ const WorkSlider = () => {
               <p className="project-category">{val.category}</p>
             </div>
             <p className="project-desc">{val.desc}</p>
+            <img src={val.imgUrl} alt={val.imgAlt}></img>
           </div>
         </SwiperSlide>
       ))}
