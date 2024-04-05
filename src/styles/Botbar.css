@@ -103,6 +103,9 @@
   .project-image {
     width: 360px;
     border-radius: 1rem;
+    border: solid 2px #121212;
+    border-top: none;
+    border-left: none;
   }
   .project-image-container {
     display: flex;

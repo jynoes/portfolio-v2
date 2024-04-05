@@ -95,7 +95,7 @@ const projectList = [
   },
   {
     id: 5,
-    title: "Technical Documentation Webpage",
+    title: "Technical Documentation Page",
     category: "Capstone Project / freeCodeCamp",
     desc: "",
     imgUrl: `${techdocu}`,
