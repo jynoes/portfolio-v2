@@ -23,6 +23,7 @@ import todo from "../assets/workImages/actual-project-1.png";
 import pokedex from "../assets/workImages/actual-project-2.png";
 import techdocu from "../assets/workImages/actual-project-4.png";
 import tribute from "../assets/workImages/actual-project-3.png";
+import brainwave from "../assets/workImages/actual-project-8.png";
 
 const projectList = [
   {
@@ -116,6 +117,23 @@ const projectList = [
     category: "Capstone Project / freeCodeCamp",
     desc: "",
     imgUrl: `${tribute}`,
+    imgAlt: "",
+    stack: [
+      {
+        html: true,
+        css: true,
+        javascript: true,
+        reactJS: false,
+        bootstrap: true,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Brainwave",
+    category: "ReactJS Tutorial from YouTube",
+    desc: "",
+    imgUrl: `${brainwave}`,
     imgAlt: "",
     stack: [
       {
