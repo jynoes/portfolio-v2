@@ -15,6 +15,7 @@ import { FreeMode, Pagination } from "swiper/modules";
 import { FaReact, FaBootstrap, FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiTailwindcss } from "react-icons/si";
 
 // Project Images Import
 import pades from "../assets/workImages/actual-project-5.png";
@@ -196,6 +197,7 @@ const WorkSlider = () => {
                     {tech.javascript && <IoLogoJavascript />}
                     {tech.reactJS && <FaReact />}
                     {tech.bootstrap && <FaBootstrap />}
+                    {tech.tailwind && <SiTailwindcss />}
                   </span>
                 ))}
               </div>
