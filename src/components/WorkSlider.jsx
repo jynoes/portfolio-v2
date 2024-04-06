@@ -97,7 +97,7 @@ const projectList = [
   {
     id: 5,
     title: "Technical Documentation Page",
-    category: "Capstone Project / freeCodeCamp",
+    category: "Capstone Project",
     desc: "",
     imgUrl: `${techdocu}`,
     imgAlt: "",
@@ -114,7 +114,7 @@ const projectList = [
   {
     id: 6,
     title: "Tribute Webpage",
-    category: "Capstone Project / freeCodeCamp",
+    category: "Capstone Project",
     desc: "",
     imgUrl: `${tribute}`,
     imgAlt: "",
@@ -131,6 +131,23 @@ const projectList = [
   {
     id: 7,
     title: "Brainwave",
+    category: "ReactJS Tutorial from YouTube",
+    desc: "",
+    imgUrl: `${brainwave}`,
+    imgAlt: "",
+    stack: [
+      {
+        html: true,
+        css: true,
+        javascript: true,
+        reactJS: false,
+        bootstrap: true,
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Apple Website",
     category: "ReactJS Tutorial from YouTube",
     desc: "",
     imgUrl: `${brainwave}`,
