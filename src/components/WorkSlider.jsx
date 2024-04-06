@@ -25,6 +25,7 @@ import pokedex from "../assets/workImages/actual-project-2.png";
 import techdocu from "../assets/workImages/actual-project-4.png";
 import tribute from "../assets/workImages/actual-project-3.png";
 import brainwave from "../assets/workImages/actual-project-8.png";
+import apple from "../assets/workImages/actual-project-9.png";
 
 const projectList = [
   {
