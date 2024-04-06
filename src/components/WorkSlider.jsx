@@ -145,9 +145,9 @@ const projectList = [
     stack: [
       {
         html: true,
-        css: true,
+        css: false,
         javascript: true,
-        reactJS: false,
+        reactJS: true,
         bootstrap: false,
         tailwind: true,
       },
@@ -163,9 +163,9 @@ const projectList = [
     stack: [
       {
         html: true,
-        css: true,
+        css: false,
         javascript: true,
-        reactJS: false,
+        reactJS: true,
         bootstrap: false,
         tailwind: true,
       },
