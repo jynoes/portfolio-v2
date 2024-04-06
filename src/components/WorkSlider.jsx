@@ -159,7 +159,7 @@ const projectList = [
     title: "Apple Website",
     category: "ReactJS Tutorial from YouTube",
     desc: "",
-    imgUrl: `${brainwave}`,
+    imgUrl: `${apple}`,
     imgAlt: "",
     stack: [
       {
