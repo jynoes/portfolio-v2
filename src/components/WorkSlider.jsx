@@ -154,24 +154,24 @@ const projectList = [
       },
     ],
   },
-  {
-    id: 8,
-    title: "Apple Website",
-    category: "ReactJS Tutorial from YouTube",
-    desc: "",
-    imgUrl: `${apple}`,
-    imgAlt: "",
-    stack: [
-      {
-        html: true,
-        css: false,
-        javascript: true,
-        reactJS: true,
-        bootstrap: false,
-        tailwind: true,
-      },
-    ],
-  },
+  // {
+  //   id: 8,
+  //   title: "Apple Website",
+  //   category: "ReactJS Tutorial from YouTube",
+  //   desc: "",
+  //   imgUrl: `${apple}`,
+  //   imgAlt: "",
+  //   stack: [
+  //     {
+  //       html: true,
+  //       css: false,
+  //       javascript: true,
+  //       reactJS: true,
+  //       bootstrap: false,
+  //       tailwind: true,
+  //     },
+  //   ],
+  // },
 ];
 
 const WorkSlider = () => {
