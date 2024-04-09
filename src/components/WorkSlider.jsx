@@ -16,6 +16,7 @@ import { FaReact, FaBootstrap, FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
+import { RxExternalLink } from "react-icons/rx";
 
 // Project Images Import
 import pades from "../assets/workImages/actual-project-5.png";
@@ -196,6 +197,7 @@ const WorkSlider = () => {
       {projectList.map((val, i) => (
         <SwiperSlide key={i}>
           <div className="project-slide">
+          <a href={val.link}><RxExternalLink className="external-link" size="2em" /></a>
             <h4 className="project-title">{val.title}</h4>
             <div className="project-detail">
               <div className="project-tools-container">

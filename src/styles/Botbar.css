@@ -471,6 +471,12 @@
   .scrollableContainer {
     padding-right: 1rem;
   }
+
+  .external-link {
+    position: absolute;
+    right: 25px;
+    height: 30px;
+  }
 }
 
 
