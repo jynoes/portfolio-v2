@@ -197,7 +197,7 @@ const WorkSlider = () => {
       {projectList.map((val, i) => (
         <SwiperSlide key={i}>
           <div className="project-slide">
-          <a href={val.link}><RxExternalLink className="external-link" size="2em" /></a>
+          <a href={val.link} target="_blank" rel="noreferrer"><RxExternalLink className="external-link" size="1.5em" /></a>
             <h4 className="project-title">{val.title}</h4>
             <div className="project-detail">
               <div className="project-tools-container">

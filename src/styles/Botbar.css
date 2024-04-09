@@ -474,8 +474,9 @@
 
   .external-link {
     position: absolute;
-    right: 25px;
+    right: 30px;
     height: 30px;
+    color: #121212;
   }
 }
 
