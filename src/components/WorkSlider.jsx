@@ -45,6 +45,7 @@ const projectList = [
         tailwind: false,
       },
     ],
+    link: "https://padesprinting.com/",
   },
   {
     id: 2,
@@ -63,6 +64,7 @@ const projectList = [
         tailwind: false,
       },
     ],
+    link: "https://shoes-website.onrender.com/",
   },
   {
     id: 3,
@@ -81,6 +83,7 @@ const projectList = [
         tailwind: false,
       },
     ],
+    link: "https://to-do-list-capstone.onrender.com/",
   },
   {
     id: 4,
@@ -99,10 +102,11 @@ const projectList = [
         tailwind: false,
       },
     ],
+    link: "https://pokedex-learning-apis.onrender.com/index.html",
   },
   {
     id: 5,
-    title: "Technical Documentation Page",
+    title: "Technical Docu Page",
     category: "Capstone Project",
     desc: "",
     imgUrl: `${techdocu}`,
@@ -117,6 +121,7 @@ const projectList = [
         tailwind: false,
       },
     ],
+    link: "https://freecodecamp-technical-documentation-page.onrender.com/",
   },
   {
     id: 6,
@@ -135,6 +140,7 @@ const projectList = [
         tailwind: false,
       },
     ],
+    link: "https://freecodecamp-tribute-page.onrender.com/",
   },
   {
     id: 7,
@@ -153,6 +159,7 @@ const projectList = [
         tailwind: true,
       },
     ],
+    link: "https://brainwave-89h0.onrender.com/",
   },
   {
     id: 8,
@@ -171,6 +178,7 @@ const projectList = [
         tailwind: true,
       },
     ],
+    link: "https://apple-website-zatw.onrender.com/",
   },
 ];
 
