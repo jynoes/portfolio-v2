@@ -39,7 +39,7 @@ const Midbar = () => {
               onClick={() => setActiveSection("Playground")}
             >
               {" "}
-              <span className="bolder">Playground</span>
+              <span className="bolder">Skills</span>
             </Col>
 
             <Col
