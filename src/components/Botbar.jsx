@@ -18,7 +18,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { SiUpwork } from "react-icons/si";
 
 const introduction =
-  "Jynoe is an aspiring designer from Quezon City, Philippines.";
+  // "Jynoe is an aspiring designer from Quezon City, Philippines.";
 const introduction2 =
   "Passionate about art — designing, illustrating, and studying visuals.";
 
