@@ -177,7 +177,11 @@ const Botbar = ({ activeSection }) => {
 
       {activeSection === "Playground" && (
         <Container id="botbar-playground" className="botbar=playground scrollable-section" >
-          
+          <Row>
+            <Col>
+              
+            </Col>
+          </Row>
         </Container>
       )}
 
